@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="searchheadr">
+        <form id="serachform">
+        
+                
+                <input type="text" placeholder="Search city" id="city_name" pattern="[A-Za-z0-9 ]{3,}" title= "Only letters and numbers are allowed and must contain atleast 3 chareters " required>
+            
+                <button type="submit" id="search_btn">Serach</button>
+           
+    </form>
+</div>
+        <div class="weather_details">
+            <div id="city_detail"></div>
+            <div id="filter"></div>
+            <div id="filterd_data"></div>
+            <div id="weather_dtls"></div>
+        </div>
+<img src="" alt="">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
