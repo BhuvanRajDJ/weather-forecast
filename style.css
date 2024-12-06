@@ -80,12 +80,10 @@ button {
 #weather_dtls,
 #filterd_data {
   color: #fff;
-  /* background-color: rgb(15, 130, 230); */
-  display: grid;
+    display: grid;
   grid-template-rows: repeat(4, 400px);
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  /* we set the auto-fit property and minmax to amke it responsive */
-  grid-gap: 10px;
+    grid-gap: 10px;
 }
 
 .daycard {
