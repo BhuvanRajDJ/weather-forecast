@@ -278,7 +278,7 @@ document
       // filtertoggle = 1;
 
       document.getElementById("weather_dtls").style.display = "none";
-      document.getElementById("filterd_data").style.display = "flex";
+      document.getElementById("filterd_data").style.display = "grid";
       const fdate = document.getElementById("datefilter").value;
       console.log("fdate: " + fdate);
       const ftime = document.getElementById("timefilter").value;
